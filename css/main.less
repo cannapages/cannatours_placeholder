@@ -1,0 +1,65 @@
+// Colors
+
+@green: #09B256;
+@dark_blue: #0000FF;
+@light_blue: #5096B8;
+@red: #FF5858;
+
+.main_container {
+	min-height: 500px;
+	font-size: 16px;
+}
+
+.multi-color-header {
+	color: @green !important;
+	.alt {
+		color: @dark_blue;
+	}
+}
+
+.brand {
+	.multi-color-header;
+}
+
+.blue {
+	color: @dark_blue;
+}
+
+.bold_text {
+	font-weight: bold !important;
+}
+
+.center_text {
+	text-align: center;
+}
+
+ul.check_marks {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+	margin-center: 10px;
+	li { 
+		background:url('/img/checkmark.png') left center no-repeat; 
+		padding-left: 25px;
+		margin-bottom: 10px;
+	}
+}
+
+.i_text {
+	font-style: italic;
+}
+
+form.contact_form {
+	fieldset {
+		textarea {
+			width: 400px;
+		}
+		.btn {
+			display: block;
+		}
+	}
+}
+
+.amend_dump p {
+	line-height: 39px;
+}
